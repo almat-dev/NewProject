@@ -1,5 +1,7 @@
 .header{
+    width: 100%;
     font-family: $roboto;
+    position: absolute;
     a{
         text-decoration: none;
         text-transform: uppercase;
@@ -34,9 +36,11 @@
     // .header__bot
     &__bot{
         padding: 27px 0;
+        background: #fff;
         .container{
             display: flex;
             justify-content: space-between;
+            align-items: center;
         }
     }
     &__logo{
