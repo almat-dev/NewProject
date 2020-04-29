@@ -1,0 +1,65 @@
+.header{
+    font-family: $roboto;
+    a{
+        text-decoration: none;
+        text-transform: uppercase;
+        cursor: pointer;
+        display: inline-block;
+        color: $black;
+    }
+
+    // .header__info
+    &__info{
+        width: 100%;
+        padding: 10px 0 12px;
+        font-size: 11px;
+        font-weight: 300;
+        background-color: #fef7f6;
+        .container{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    &__links{
+        position: relative;
+        margin: 0 20px;
+    }
+    &__phone{
+        margin-right: 23px;
+    }
+    &__mail{
+        margin-left: 11px;
+    }
+
+    // .header__bot
+    &__bot{
+        padding: 27px 0;
+        .container{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    &__logo{
+        width: 25%;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 27px;
+        span{
+            color: #ff5353;
+        }
+    }
+    &__nav{
+        width: 50%;
+        text-align: center;
+        cursor: default;
+    }
+    &__map{
+        display: inline-block;
+        margin: 18px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    &__func{
+        width: 25%;
+    }
+}

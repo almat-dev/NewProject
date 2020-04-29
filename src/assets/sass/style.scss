@@ -1,10 +1,19 @@
+/* Variables and Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import "vars";
 
 
 /* Default styles */
-body {
+*, *::before, *::after {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 
 /* Blocks */
+@import "blocks/header";
